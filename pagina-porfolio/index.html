@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Personal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    <!-- Preloader - FUERA del main-content -->
+    <div class="preloader-container" id="preloader">
+        <div class="preloader-content">
+            <div class="letter-e">E</div>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress-fill"></div>
+            </div>
+            <div class="loading-text">CARGANDO</div>
+        </div>
+    </div>
+    
+    <!-- Contenido principal -->
+    <div class="main-content" id="main-content">
+        <!-- Encabezado y Navegación -->
+        <header>
+            <div class="logo">Eliel</div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#about">Sobre Mí</a></li>
+                    <li><a href="#education">Educación</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Sección Inicio -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Hola, Soy Eliel Gonzalez</h1>
+                <h2>Tecnico en programacion</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet laborum, autem consectetur esse in eaque alias reprehenderit atque est maxime ex nobis dolorem nemo velit accusantium voluptatibus.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn primary">Contrátame</a>
+                    <a href="#contact" class="btn secondary">Hablemos</a>
+                </div>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="hero-video">
+                <video autoplay muted loop playsinline>
+                    <source src="presentacion.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+            </div>
+        </section>
+
+
+        <!-- Sección Sobre Mí -->
+        <section id="about" class="about">
+            <h2>Sobre <span class="highlight">Mí</span></h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="perfil.png" alt="Jacob Aiden">
+                </div>
+                <div class="about-text">
+                    <h3>Tecnico en programacion</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipiscing elit. Nam quam lure, provident iste quis sequi vero explicaboil impedit laboriosam nisi incidunt quispquam. Quos venatis doloribus dolorum ratione atque explicabo qui distinctio autem voluptate. Quia eum odio ducimus neque quisquam recusandae, ut animi accusantium quidem labore blanditiis repellat, nisi mollitia voluptatem.</p>
+                    <a href="#" class="btn primary">Leer Más</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Mi Trayectoria -->
+        <section id="education" class="journey">
+            <h2>Mi <span class="highlight">Trayectoria</span></h2>
+            
+            <div class="journey-container">
+                <div class="journey-column">
+                    <h3>Educación</h3>
+                    
+                    <div class="journey-item">
+                        <div class="journey-date">2018 - 2022</div>
+                        <div class="journey-content">
+                            <h4>UVA - Universidad</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipiscing elit. Sed dolores odio non vero, expedito qui sint delectus modi totam possimus.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="journey-item">
+                        <div class="journey-date">2015 - 2018</div>
+                        <div class="journey-content">
+                            <h4>Tecnica N5 - Universidad</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipiscing elit. Sed dolores odio non vero, expedito qui sint delectus modi totam possimus.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="journey-item">
+                        <div class="journey-date">2012 - 2015</div>
+                        <div class="journey-content">
+                            <h4>Licenciatura - Universidad</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipiscing elit. Sed dolores odio non vero, expedito qui sint delectus modi totam possimus.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="journey-column">
+                    <h3>Experiencia</h3>
+                    
+                    <div class="journey-item">
+                        <div class="journey-date">2025 - Actual</div>
+                        <div class="journey-content">
+                            <h4>Desarrollador Web - Empresa</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipiscing elit. Sed dolores odio non vero, expedito qui sint delectus modi totam possimus.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="journey-item">
+                        <div class="journey-date">2023 - 2024</div>
+                        <div class="journey-content">
+                            <h4>Desarrollador Web - Empresa</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipiscing elit. Sed dolores odio non vero, expedito qui sint delectus modi totam possimus.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="journey-item">
+                        <div class="journey-date">2020 - 2022</div>
+                        <div class="journey-content">
+                            <h4>Desarrollador Web - Empresa</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipiscing elit. Sed dolores odio non vero, expedito qui sint delectus modi totam possimus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Habilidades -->
+        <section id="skills" class="skills">
+            <h2>Mis <span class="highlight">Habilidades</span></h2>
+            
+            <div class="skills-container">
+                <div class="skills-column">
+                    <h3>Habilidades de Programación</h3>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">HTML</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%">90%</div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">CSS</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 87%">87%</div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">JavaScript</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%">85%</div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">Python</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%">75%</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-column">
+                    <h3>Habilidades Profesionales</h3>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">Diseño Web</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%">95%</div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">Desarrollo Web</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 87%">87%</div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">Diseño Gráfico</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%">85%</div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">Marketing SEO</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%">90%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="mis-proyectos">
+            <div class="proyecto">
+                <img src="img-3.PNG" alt="Proyecto 1">
+                <div class="info">
+                    <h3>Aplicación Web</h3>
+                    <p>Desarrollo de una aplicación web moderna utilizando HTML.CSS.js. Incluye autenticación de usuarios y base de datos DB.Tienda de</p>
+                </div>
+            </div>
+            
+            <div class="proyecto">
+                <img src="img-2.PNG" alt="Proyecto 2">
+                <div class="info">
+                    <h3>Toma de varibles</h3>
+                    <p>Dispositivo que toma variables del ambiente y humedad del suelo </p>
+                </div>
+            </div>
+            
+            <div class="proyecto">
+                <img src="img-1.PNG" alt="Proyecto 3">
+                <div class="info">
+                    <h3>Aplicacion Web </h3>
+                    <p>Desarrollo de una aplicación web moderna utilizando HTML.CSS.js. Tienda de Ropa</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Sección Contacto -->
+        <section id="contact" class="contact">
+            <h2>Contacto <span class="highlight">¡Ahora!</span></h2>
+            
+            <form class="contact-form">
+                <div class="form-row">
+                    <input type="text" placeholder="Nombre Completo" required>
+                    <input type="email" placeholder="Correo Electrónico" required>
+                </div>
+                <div class="form-row">
+                    <input type="tel" placeholder="Número de Teléfono">
+                    <input type="text" placeholder="Asunto del Correo">
+                </div>
+                <textarea placeholder="Tu Mensaje" rows="6" required></textarea>
+                <button type="submit" class="btn primary">Enviar</button>
+            </form>
+        </section>
+
+        <!-- Pie de Página -->
+        <footer>
+            
+            <button class="download-btn" id="downloadCV">
+                Mi CV
+                <svg class="download-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+            </button>
+
+            <p>Copyright © 2023 by Jacob | Todos los derechos reservados.</p>
+            <a href="#home" class="scroll-top"><i class="fas fa-arrow-up"></i></a>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const preloader = document.getElementById('preloader');
+            const mainContent = document.getElementById('main-content');
+            const progressFill = document.getElementById('progress-fill');
+            
+            // Simular carga progresiva
+            let progress = 0;
+            const interval = setInterval(function() {
+                progress += Math.random() * 10;
+                if (progress > 100) progress = 100;
+                
+                progressFill.style.width = progress + '%';
+                
+                if (progress === 100) {
+                    clearInterval(interval);
+                    
+                    // Dar tiempo para que se complete la animación de la letra E
+                    setTimeout(function() {
+                        preloader.classList.add('hidden');
+                        
+                        // Mostrar el contenido principal después de que desaparezca el preloader
+                        setTimeout(function() {
+                            mainContent.classList.add('visible');
+                        }, 500);
+                    }, 2000); // Ajusta este tiempo según la duración de la animación del logo
+                }
+            }, 100);
+        });
+        
+        // Asegurarse de que el preloader desaparezca incluso si la carga real es muy rápida o muy lenta
+        window.addEventListener('load', function() {
+            const progressFill = document.getElementById('progress-fill');
+            progressFill.style.width = '100%';
+            
+            // Comprobar si el preloader ya se ha ocultado
+            if (!document.getElementById('preloader').classList.contains('hidden')) {
+                setTimeout(function() {
+                    document.getElementById('preloader').classList.add('hidden');
+                    setTimeout(function() {
+                        document.getElementById('main-content').classList.add('visible');
+                    }, 500);
+                }, 1000);
+            }
+        });
+
+        // Función para el menú hamburguesa
+        const header = document.querySelector('header');
+        const navToggle = document.createElement('div');
+        navToggle.classList.add('nav-toggle');
+        navToggle.innerHTML = '<span></span><span></span><span></span>';
+        header.appendChild(navToggle);
+        
+        const nav = document.querySelector('nav');
+        navToggle.addEventListener('click', () => {
+            nav.classList.toggle('active');
+            navToggle.classList.toggle('active');
+        });
+        
+        document.querySelectorAll('nav a').forEach(link => {
+            link.addEventListener('click', () => {
+                nav.classList.remove('active');
+                navToggle.classList.remove('active');
+            });
+        });
+
+        // Función para detectar cuando un elemento es visible en el viewport
+        function isElementInViewport(el) {
+            const rect = el.getBoundingClientRect();
+            return (
+                rect.top <= (window.innerHeight || document.documentElement.clientHeight) * 0.85 &&
+                rect.bottom >= 0
+            );
+        }
+
+        // Función para activar las animaciones de las secciones cuando son visibles
+        function handleScrollAnimations() {
+            const sections = document.querySelectorAll('section');
+            
+            sections.forEach(section => {
+                if (isElementInViewport(section) && !section.classList.contains('animated')) {
+                    section.classList.add('animated');
+                }
+            });
+        }
+
+        // Inicializar las animaciones
+        document.addEventListener('DOMContentLoaded', () => {
+            // Asegurarse de que la primera sección (hero) siempre se muestre animada al cargar
+            setTimeout(() => {
+                const heroSection = document.getElementById('home');
+                if (heroSection) {
+                    heroSection.classList.add('animated');
+                }
+            }, 300);
+            
+            // Ejecutar las animaciones al hacer scroll
+            window.addEventListener('scroll', handleScrollAnimations);
+            
+            // Comprobar las animaciones al cargar la página
+            handleScrollAnimations();
+        });
+
+
+
+        document.getElementById('downloadCV').addEventListener('click', function() {
+            // Ruta al archivo PDF de tu CV
+            const pdfUrl = 'micv.pdf';
+            
+            // Crear un elemento <a> temporal
+            const link = document.createElement('a');
+            
+            // Configurar el enlace para descargar
+            link.href = pdfUrl;
+            link.download = 'micv.pdf'; // Nombre del archivo al descargar
+            
+            // Añadir el enlace al documento
+            document.body.appendChild(link);
+            
+            // Simular clic en el enlace
+            link.click();
+            
+            // Eliminar el enlace del documento
+            document.body.removeChild(link);
+
+            // Mostrar un mensaje de confirmación (opcional)
+            const button = document.getElementById('downloadCV');
+            const originalText = button.innerHTML;
+            
+            button.innerHTML = 'Descargando...';
+            
+            setTimeout(function() {
+                button.innerHTML = originalText;
+            }, 2000);
+        });
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
